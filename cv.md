@@ -1,5 +1,3 @@
-HiHi Im nebieasdsd
-asdasd
-asd
-
-asdasd
+Гаврилов Денис
+Denis (@Oys1881)
+Изучаю FE/JS
