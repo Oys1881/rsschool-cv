@@ -1,0 +1,79 @@
+* {
+    outline: 1px solid #663d15;
+   }
+
+body {
+   /*  margin: 0px;
+    padding: 0px;
+    */
+    font-family: PT Sans, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: black;
+
+    background-color: #0000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    font: inherit;
+    
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+
+    background-color: black;
+    border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: cadetblue;
+}
+
+
+.main_navigation {
+    color: #0000;
+    background-color: black;
+}
+
+
+
+.contacts_list {
+    list-style: none;
+}
+.conteiner_left {
+    color: rgb(240, 238, 233);
+    background-color: black;
+}
+
+.skills_list {
+    list-style: none;
+}
+
+.education_list {
+    list-style: none;
+}
+
+.language_list {
+    list-style: none;
+}
+
+.main_footer {
+    color: #fff;
+
+    background-color: black;
+}
+
+.footer_button {  
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+
+    background-color: black;
+    border: none;
+}
