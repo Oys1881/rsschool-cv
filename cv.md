@@ -1,36 +1,36 @@
-#Gavrilov Denis
+# Gavrilov Denis
 Junior Front-end Developer
 
-#Contacts
-Discord: Bydy#3937
-Skype: Birds2448
-Email: birdsindnr@gmail.com
-Address: Donetsk,Russia
+# Contacts
+* Discord: Bydy#3937
+* Skype: Birds2448
+* Email: birdsindnr@gmail.com
+* Address: Donetsk,Russia
 
-#About me
+# About me
 I like to study and learn something new.Since childhood, I have had a predisposition to work with electronics and computers. I like to disassemble, assemble and configure something. I can build, configure, solve problems with computers.I want to upgrade my skills.I'd like do beautiful interactive cites.I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
 
-#Skills
-HTML5 
-CSS3
-JavaScript Basics
-Git 
-GitHub
-VS Code
-Adobe Photoshop
+# Skills
+* HTML5 
+* CSS3
+* JavaScript Basics
+* Git 
+* GitHub
+* VS Code
+* Adobe Photoshop
 
-#Code example
+# Code example
 I dont have
 
-#Work experience
+# Work experience
 I dont have
 
-#Education
-Alma mater Saint Petersburg State University
-RS Schools Course «JavaScript/Front-end. Stage 0»
+# Education
+* Alma mater Saint Petersburg State University
+* RS Schools Course «JavaScript/Front-end. Stage 0»
 
-#Language
+# Language
 B1
 
-#Projects
+# Projects
 https://Oys1881.github.io/rsschool-cv/
