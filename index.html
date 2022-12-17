@@ -4,36 +4,40 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
     <title>CV Denis Gavrilov</title>
   </head>
   <body>
     <header class="main_header">
       <nav class="main_navigation">
-        <ul class="site_navigation">
-          <li><button class="button">Contacts</button></li>
-          <li><button class="button">About me</button></li>
-          <li><button class="button">Skills</button></li>
-          <li><button class="button">Code example</button></li>
-          <li><button class="button">Work experience</button></li>
-          <li><button class="button">Education</button></li>
-          <li><button class="button">Language</button></li>
-          <li><button class="button">Projects</button></li>
-        </ul>
+        <div class="head_wrap">
+          <ul class="site_navigation">
+            <li><a class="button" href="#about_me">ABOUT ME</a></li>
+            <li><a class="button" href="#contacts">CONTACTS</a></li>
+            <li><a class="button" href="#skills">SKILLS</a></li>
+            <li><a class="button" href="#education">EDUCATION</a></li>
+            <li><a class="button" href="#code_example">CODE EXAMPLE</a></li>
+            <li><a class="button" href="#work_experience">WORK EXPERIENCE</a></li>
+            <li><a class="button" href="#language">LANGUAGE</a></li>
+            <li><a class="button" href="#projects">PROJECTS</a></li>
+          </ul>
+        </div>
       </nav>
+      
     </header>
     <main class="conteiner">
       <div class="conteiner_left">
         <section class="name">
-          <h1>CV Denis Gavrilov</h1>
-          <p>Front-end Developer</p>
+          <h1>DENIS GAVRILOV</h1>
+          <p>FRONT-END DEVELOPER</p>
           <img src="logo.jpg" alt="photo"> 
         </section>
-        <section class="about_me">
-          <h2>About me</h2>
+        <section class="about_me" id="about_me">
+          <h2>ABOUT ME</h2>
           <p>I like to study and learn something new. Since childhood, I have had a predisposition to work with electronics and computers. I like to disassemble, assemble and configure something. I can build, configure, solve problems with computers.I want to upgrade my skills.I'd like do beautiful interactive cites.I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.</p>
         </section>
-        <section class="contacts">
-          <h2>Contacts</h2>
+        <section class="contacts" id="contacts">
+          <h2>CONTACTS</h2>
           <ul class="contacts_list">
             <li class="contacts_item">Discord: Bydy#3937</li>
             <li class="contacts_item">Skype: Birds2448</li>
@@ -43,8 +47,8 @@
         </section>
       </div>
       <div class="container_right">
-        <section class="skills">
-          <h2>Skills</h2>
+        <section class="skills" id="skills">
+          <h2>SKILLS</h2>
           <ul class="skills_list">
             <li class="skills_item">HTML5</li>
             <li class="skills_item">CSS3</li>
@@ -55,37 +59,39 @@
             <li class="skills_item">Adobe Photoshop</li>
           </ul>
         </section>
-        <section class="education">
-          <h2>Education</h2>
+        <section class="education" id="education">
+          <h2>EDUCATION</h2>
           <ul class="education_list">
             <li class="education_item">Alma mater Saint Petersburg State University</li>
             <li class="education_item">RS Schools Course «JavaScript/Front-end. Stage 0»</li>
           </ul>
         </section>
-        <section class="code_example">
-          <h2>Code example</h2>
+        <section class="code_example" id="code_example">
+          <h2>CODE EXAMPLE</h2>
           <p>I dont have</p>
         </section>
-        <section class="experience">
-          <h2>Work experience</h2>
+        <section class="experience" id="work_experience">
+          <h2>WORK EXPERIENCE</h2>
           <p>I dont have</p>
         </section>
-        <section class="language">
-          <h2>Language</h2>
+        <section class="language" id="language">
+          <h2>LANGUAGE</h2>
           <ul class="language_list">
             <li class="language_item">English B1</li>
           </ul>
         </section>
-        <section class="projects">
-          <h2>Projects</h2>
+        <section class="projects" id="projects">
+          <h2>PROJECTS</h2>
           <a href="https://oys1881.github.io/rsschool-cv/">CV Projects</a>
         </section>
       </div>
     </main>
     <footer class="main_footer">
-      <a class="footer_button" href="https://github.com/Oys1881"><img src="github-mark-white.svg" alt="GitHub"> GitHub</a>
-      <b>2022-2023</b>
-      <a class="footer_button" href="https://rs.school/js/"><img src="logo-rs.svg" alt="RS School" width="108" height="40"> RS School</a>
+      <div class="footer_wrap">
+        <a class="footer_button" href="https://github.com/Oys1881"><img src="github-mark-white.svg" alt="GitHub"> GitHub</a>
+        <b>2022-2023</b>
+        <a class="footer_button" href="https://rs.school/js/"><img src="logo-rs.svg" alt="RS School" width="108" height="40"> RS School</a>
+      </div>
     </footer>
   </body>
 </html>

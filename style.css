@@ -1,14 +1,19 @@
 * {
     outline: 1px solid #663d15;
    }
+*/
+
+* {
+    box-sizing: border-box;
+  }
 
 body {
-   /*  margin: 0px;
+    margin: 0px;
     padding: 0px;
-    */
+    
     font-family: PT Sans, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 50px;
     font-weight: 700;
     color: black;
 
@@ -20,8 +25,8 @@ a {
 }
 
 .button {
-    font: inherit;
-    
+    padding: 10px 20px;
+
     text-align: center;
     vertical-align: middle;
     color: #fff;
@@ -34,16 +39,55 @@ a {
 .button:active {
     background-color: cadetblue;
 }
-
-
-.main_navigation {
-    color: #0000;
+.main_header {
     background-color: black;
 }
 
+.main_navigation {
+    margin: 0px;
+    padding: 0px;
+    color: #0000;
+}
 
+.site_navigation {
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.conteiner_left {
+    width: 40%;
+
+    text-align: center;
+}
+
+.container_right {
+    margin: auto;
+}
+
+@media (max-width: 1000px) {
+    .conteiner {
+        flex-direction: column;
+    }
+    .conteiner_left {
+        width: 100%;
+    }
+}
 
 .contacts_list {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 .conteiner_left {
@@ -52,14 +96,20 @@ a {
 }
 
 .skills_list {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 
 .education_list {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 
 .language_list {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 
@@ -67,6 +117,15 @@ a {
     color: #fff;
 
     background-color: black;
+}
+
+.footer_wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .footer_button {  
